@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f3f1eb;
+    scroll-behavior: smooth;
+}
+
+header{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #24282c;
+    padding: 25px;
+    border: 5px solid;
+    border-color: #d8ddd9;
+    border-radius: 10px;
+}
+
+main{
+    padding: 15px;
+}
+
+
+
+section{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline;
+}
+
+
+/*Hero section*/
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}   
+
+#hero-description{
+    padding: 5px;
+}
+
+#hero-img{
+    flex-shrink: 1;
+    height: 10cm;
+    width: 110%;
+    overflow: hidden;
+    padding:  5px;
+    min-width: 400px;
+}
+
+#title{
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #24282c;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    background-color: #f3f1eb;
+    z-index: 4;
+}
+
+#title:hover {
+    transition-duration: 0.5;
+    visibility: hidden;
+    transition-duration: 0.5s;
+}
+
+#h1-1{
+    visibility: visible;
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #24282c;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    background-color: #f3f1eb;
+    z-index: 3;
+}
+
+
+/*Projects*/
+.projects{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.project{
+    padding: 5px;
+    flex-grow: 1;
+    flex-direction: column;
+    border: #d8ddd9 solid;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+#pro-img{
+    float:right;
+    align-self: center;
+    width: 60%; 
+    height: 40%;
+}
+
+#pro-tlt{
+    align-self: baseline;
+}
+
+#pro-p{
+    padding: 10px;
+}
+
+
+/*My Approuch*/
+#MA{
+    display: flex;
+    padding: 5px;
+    border: #d8ddd9 solid;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 25px;
+}
+
+.MA-tlt{
+    padding-top: 15px;
+    
+}
+
+#MA-p{
+    padding: top 5px, bottom 5px;
+}
+
+
+/*About*/
+.ab{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 25px;
+}
+
+
+/*Footer*/
+footer{
+    padding: 25px;
+    margin-top: 25px;
+    border-top: 5px solid;
+    border-top-color: #d8ddd9;
+    font-family: monospace;
+    color: #24282c;
+}
+
+.footer{
+    font-family: monospace;
+    color: #24282c;
+}
+
+
+/*Text on doc */
+h2 {
+    font-family: sans-serif;
+    color: #24282c;
+    text-align: left;
+}
+
+h3{
+    font-family: sans-serif;
+    color: #24282c;
+}
+
+p{ 
+    font-family: sans-serif;
+    color: #24282c;
+}
+
+
+/*Escencial*/
+.data{
+
+    font-family: monospace;
+    color: #3468f6;
+    padding: 10px;
+    flex-grow: 0;
+    font-weight: bold;
+}
+
+.links{
+    font-family: monospace;
+    color: #3468f6;
+}
+
+.style-non{
+    text-decoration: none;
+    color: #24282c;
+}
+
+#select:hover{
+    background-color: #d8ddd9;
+}
+
+nav{
+    display: inline;
+    float: right;
+}
