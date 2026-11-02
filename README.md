@@ -12,9 +12,24 @@
 
 <h2>How to run/try</h2>
 <br>
-<p>Right now there's no public way in which you can try it completely, because I don't know who to make it work properly online. But don't worry, there's still some solution! 
+<p>Right now there's no public way in which you can try it completely, because i dont have a permanent public domain and it need to have some changes. But don't worry, there's still some solution! 
 
-First solution: Try the demo! It isn't completely working, but still something. <a href='https://ilovthings.github.io/Personal-Portfolio/'>(Click here↗)</a>
+First solution: Try the demo! It isn't completely working, but still something. <a href='https://staticfile-5fabd.wasmer.app/index.html'>(Click here↗)</a>
 
 Second solution: Try downloading the files from the Webpage-demo folder from this repo. Being honest, idk if it works like that; I haven't tried it yet, but you should try it if you want a more complete experience.
 </p>
+
+<hr>
+
+<h2>Latest update</h2>
+<br>
+<p>The latest thing that I have been working on in this project is the sorting system in the project's files. I also fixed all the links that matter rn. And finally, I add some personal text; before, I just had dummy text.
+</p>
+
+<hr>
+
+<h2>Extra photos</h2>
+<br>
+<img alt="image" src="">
+<img alt="image" src="">
+<img alt="image" src="">
