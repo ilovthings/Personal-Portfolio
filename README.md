@@ -30,6 +30,6 @@ Second solution: Try downloading the files from the Webpage-demo folder from thi
 
 <h2>Extra photos</h2>
 <br>
-<img alt="image" src="">
-<img alt="image" src="">
-<img alt="image" src="">
+<img alt="image" src="https://github.com/ilovthings/Personal-Portfolio/blob/main/Images/Screenshot%202026-11-01%20132317.png">
+<img alt="image" src="https://github.com/ilovthings/Personal-Portfolio/blob/main/Images/Screenshot%202026-11-01%20132322.png">
+<img alt="image" src="https://github.com/ilovthings/Personal-Portfolio/blob/main/Images/Screenshot%202026-11-01%20193140.png">
