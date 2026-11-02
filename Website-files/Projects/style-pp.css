@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f3f1eb;
+    scroll-behavior: smooth;
+}
+
+header{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: #24282c;
+    padding: 25px;
+    border: 5px solid;
+    border-color: #d8ddd9;
+    border-radius: 10px;
+}
+
+main{
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+}
+
+.srch{
+    padding: 25px;
+    border: #d8ddd9 solid;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+}
+
+/*Projects*/
+.projects_page{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.project{
+    margin: 5.5px;
+    padding: 5px;
+    flex-grow: 1;
+    height: 380px;
+    width: 300px;
+    flex-direction: column;
+    border: #d8ddd9 solid;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.pro-img{
+    float:right;
+    align-self: center;
+}
+
+.pro-tlt{
+    align-self: baseline;
+}
+
+.pro-p{
+    padding: 10px;
+}
+
+/*Footer*/
+footer{
+    padding: 25px;
+    margin-top: 25px;
+    border-top: 5px solid;
+    border-top-color: #d8ddd9;
+    font-family: monospace;
+    color: #24282c;
+}
+
+.footer{
+    font-family: monospace;
+    color: #24282c;
+}
+
+/*Text on doc */
+
+h1{
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #24282c;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #24282c;
+    text-align: left;
+}
+
+h3{
+    font-family: sans-serif;
+    color: #24282c;
+}
+
+p{ 
+    font-family: sans-serif;
+    color: #24282c;
+}
+
+/*Escencial*/
+.data{
+
+    font-family: monospace;
+    color: #3468f6;
+    padding: 10px;
+    flex-grow: 0;
+    font-weight: bold;
+}
+
+.links{
+    font-family: monospace;
+    color: #3468f6;
+}
+
+.style-non{
+    text-decoration: none;
+    color: #24282c;
+}
+
+#select:hover{
+    background-color: #d8ddd9;
+    border-radius: 5px;
+    
+}
+
+nav{
+    display: inline;
+    float: right;
+}
